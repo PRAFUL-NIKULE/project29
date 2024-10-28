@@ -1,0 +1,684 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  html,body{
+     width: 100%;
+     height: 100%;
+ }
+/* home section start  */
+.main-cont{
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    width: 20px;
+} 
+.main-head-img{
+    width: 100%;
+    height: 100%; 
+    background-image: url(images/home7.jpg);
+    background-size: cover; 
+}
+.img-heading{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.my-galary{
+    width: 100%;
+    
+}
+.my-galary-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.heading{
+    color: red;
+}
+.my-galary-img{
+    width:100%;
+}
+.my-img{
+    width: 100%;
+    padding-top: 10px;
+}
+.my-banner-img{
+    width: 100%;
+}
+.banner-img{
+    width: 100%;
+}
+.my-para{
+    font-size: 18px; 
+    font-weight: 500;
+}
+
+/* footer start */
+.footer{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.footer-box{
+    width: 100%;
+}
+.my-paragraph{
+    font-size: 18px; 
+    font-weight: 500;
+    color: rgba(169, 169, 169, 0.589);    
+}
+i{
+    margin-left: 15px;
+}
+
+@media (min-width:768px) {
+     .footer{
+        width: 100%;
+        height: 80%;
+     }
+     .footer-box{
+        width: 100%;
+        padding-left: 18px;
+        padding-top: 30px;
+    }
+    .my-paragraph{
+        font-size: 18px; 
+        font-weight: 500;
+        color: rgba(169, 169, 169, 0.589);    
+    }
+    i{
+        margin-left: 15px;
+    }
+     
+} 
+
+/* large device  */
+ @media (min-width:1024px) {
+    .main-cont{
+        width: 100%;
+        height: 100%;
+    } 
+    .img-heading{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        padding-left: 50px;
+        padding-top: 200px;
+    }
+    .img-h1{
+        font-size: 50px;
+    } 
+    .my-galary-img{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .my-img{
+        width: 49.9%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .banner-img{
+        width: 100%;
+        height: 300px;
+    }
+    .footer{
+        width: 100%;
+        height: 70%;
+        padding: 20px; 
+        display: flex;
+        align-items: center;
+    }
+    .footer-box{
+        width: 100%;
+        align-items: center;
+        padding-left: 40px;
+    } 
+    
+}  
+
+/* about section start  */
+ .main-cont{
+    width: 100%;
+    height: 100%;
+ }
+.section-about-img{
+    width: 100%;
+    height: 75%;
+    background-image: url(images/camera-banner4.jpg);
+    background-size: cover;
+ }
+ .section-img-heading{
+    width: 100%;
+    padding: 20px;
+    padding-top: 250px;
+    padding-left: 50px;
+    font-size: 40px;
+ } 
+ .section-top-h1{
+     font-size: 60px;
+ }
+.about-mid-sec{
+    width: 100%;
+    background-color: rgba(169, 169, 169, 0.589);
+    padding: 20px;
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.about-mid-h1{
+    font-weight: 700;
+}
+.about-m-s-img{
+    width: 100%; 
+    box-shadow: 4px 7px 7px 0px #000000c9;
+    cursor: pointer;
+    transition:500ms;
+}
+.a-m-s-img{
+    width: 100%; 
+    box-shadow: 4px 7px 7px 0px #000000c9;
+    cursor: pointer;
+    transition:500ms;
+}
+.about-bottom-img{
+    width: 100%;
+    height: 150px;
+}
+
+/* medium device  */
+@media (min-width:768px) {
+    .footer{
+        width: 100%;
+        height: 80%;
+     }
+     .footer-box{
+        width: 100%;
+        padding-left: 18px;
+        padding-top: 30px;
+    }
+    .my-paragraph{
+        font-size: 18px; 
+        font-weight: 500;
+        color: rgba(169, 169, 169, 0.589);    
+    }
+    i{
+        margin-left: 15px;
+    }
+    .about-bottom-img{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media (min-width:1024px) {
+    .about-mid-sec{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(169, 169, 169, 0.589);
+        display: flex;
+        flex-direction: row;
+    }
+    .about-m-s-img{
+        width: 100%; 
+        padding: 15px;
+        background-image: url(images/camera-2.jpg);
+        background-size: cover;
+    }
+    .a-m-s-img{
+        width: 60%; 
+        padding-top: 20px;
+    }
+    .about-bottom-img{
+        width: 100%;
+        height: 300px;
+    }
+    
+}
+
+/* services section start  */
+.main-cont{
+    width: 100%;
+    height: 100%;
+ }
+ .section-services-img{
+    width: 100%;
+    height: 75%;
+    background-image: url(images/camera-banner.jpg);
+    background-size: cover;
+ }
+ .section-img-heading{
+    width: 100%;
+    padding: 20px;
+    padding-top: 250px;
+    padding-left: 50px;
+    font-size: 40px;
+ } 
+ .section-top-h1{
+     font-size: 60px;
+ } 
+.services{
+    width: 100%;
+    background-color: rgba(169, 169, 169, 0.589);
+}
+.my-services-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-top: 160px;
+}
+.services-box{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.services-box-card{
+    width: 100%;
+}
+.services-icon{
+    width: 100px;
+}
+.my-h2{
+    font-weight: 550;
+} 
+.services-btn{
+    width: 100%;
+    background-color: rgba(169, 169, 169, 0.034);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 100px;
+ }
+ .follow-h1{
+    color: red;
+    font-weight: 600;
+ }
+
+/* medium device  */
+@media (min-width:768px) {
+    .services-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .services-box-card{
+        display: flex;
+        flex-direction: column;
+        /*align-items: center; 
+        text-align: center; */
+    }
+    .services-box-card:hover{
+        background-color: rgba(128, 128, 128, 0.459);
+        border-radius: 25px;
+    }
+    .footer{
+        width: 100%;
+        height: 80%;
+     }
+     .footer-box{
+        width: 100%;
+        padding-left: 18px;
+        padding-top: 30px;
+    }
+    .my-paragraph{
+        font-size: 18px; 
+        font-weight: 500;
+        color: rgba(169, 169, 169, 0.589);  
+    }
+    i{
+        margin-left: 15px;
+    }
+
+}
+
+/* large device  */
+ @media (min-width:1024px) {
+    .services-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .services-box-card{
+        width: 100%;
+        padding: 15px;
+    }
+    .services-box-card:hover{
+        background-color: rgba(128, 128, 128, 0.459);
+        border-radius: 30px;
+    }
+    
+}  
+
+
+/* contact section start  */
+.main-cont{
+    width: 100%;
+    height: 100%;
+ }
+.section-contact-img{
+    width: 100%;
+    height: 75%;
+    background-image: url(images/camera-banner9.jpg);
+    background-size: cover;
+ }
+ .section-img-heading{
+    width: 100%;
+    padding: 20px;
+    padding-top: 250px;
+    padding-left: 50px;
+    font-size: 40px;
+ } 
+ .section-top-h1{
+    font-size: 60px;
+ }
+ .my-map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 160px;
+    background-color: rgba(169, 169, 169, 0.589);
+ }
+
+ .contact-mid-sec{
+     width: 100%;
+     background-color: rgba(169, 169, 169, 0.589);
+     padding: 20px;
+     padding-top: 160px;
+     display: flex;
+     flex-direction: column;
+}
+.c-m-s-address{
+    width: 100%;
+}
+.icon-detail-box{
+    display: flex;
+    flex-direction: row;
+}
+.icons{
+    font-size: 25px;
+    color: red;
+}
+.my-icon-detail{
+    padding-left: 25px;
+}
+
+.c-m-s-detail{
+    width: 100%;
+}
+.contact-follow{
+    width: 100%;
+    height: 40%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(169, 169, 169, 0.589);
+}
+
+/* medium device  */
+@media (min-width:768px) {
+    .footer{
+        width: 100%;
+        height: 80%;
+     }
+     .footer-box{
+        width: 100%;
+        padding-left: 18px;
+        padding-top: 30px;
+    }
+    .my-paragraph{
+        font-size: 18px; 
+        font-weight: 500;
+        color: rgba(169, 169, 169, 0.589);  
+    }
+    i{
+        margin-left: 15px;
+    }
+     
+}
+
+@media (min-width:1024px) {
+    .contact-mid-sec{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .c-m-s-detail{
+        width: 50%;
+    }
+}
+
+/* gallery section start  */
+.main-cont{
+    width: 100%;
+    height: 100%;
+ }
+.section-gallery-img{
+    width: 100%;
+    height: 75%;
+    background-image: url(images/camera-banner3.jpg);
+    background-size: cover;
+ }
+ .section-img-heading{
+    width: 100%;
+    padding: 20px;
+    padding-top: 250px;
+    padding-left: 50px;
+    font-size: 40px;
+ } 
+ .section-top-h1{
+     font-size: 60px;
+ }
+ .photo-galary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 160px;
+    background-color: darkgray; 
+ }
+ .my-photo{
+    width: 80%;
+    border: 3px solid darkred;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 4px 7px 7px 0px #000000c9;
+    cursor: pointer;
+    transition:500ms;
+ }
+ .my-photo:hover{
+    filter:grayscale(1);
+    transform: scale(1.03);
+ }
+ .galary-btn{
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 100px;
+ }
+ .contact-bottom-img{
+    width: 100%;
+    height: 150px;
+ }
+
+ /* medium device  */
+@media (min-width:768px) {
+    .my-photo{
+        width: 40%;
+        border: 3px solid darkred;
+        border-radius: 15px;
+        padding: 5px;
+        margin: 10px;
+        box-shadow: 4px 7px 7px 0px #000000c9;
+        cursor: pointer;
+        transition:500ms;
+     }
+     .my-photo:hover{
+        filter:grayscale(1);
+        transform: scale(1.03);
+     }
+     .contact-bottom-img{
+        width: 100%;
+        height: 250px;
+     }
+     .footer{
+        width: 100%;
+        height: 80%;
+     }
+     .footer-box{
+        width: 100%;
+        padding-left: 18px;
+        padding-top: 30px;
+    }
+    .my-paragraph{
+        font-size: 18px; 
+        font-weight: 500;
+        color: rgba(169, 169, 169, 0.589);  
+    }
+    i{
+        margin-left: 15px;
+    }
+    
+ }
+
+ /* large device  */
+ @media (min-width:1024px) {
+    .my-photo{
+        width: 30%;
+        border: 3px solid darkred;
+        border-radius: 15px;
+        padding: 5px;
+        margin: 10px;
+        box-shadow: 4px 7px 7px 0px #000000c9;
+        cursor: pointer;
+        transition:500ms;
+     }
+     .my-photo:hover{
+        filter:grayscale(1);
+        transform: scale(1.03);
+     }
+     .contact-bottom-img{
+        width: 100%;
+        height: 300px;
+     }
+ }
+
+
+/* pricing section start  */
+ .main-cont{
+    width: 100%;
+    height: 100%;
+ }
+.section-pricing-img{
+    width: 100%;
+    height: 75%;
+    background-image: url(images/camera-banner6.jpg);
+    background-size: cover;
+ }
+ .section-img-heading{
+    width: 100%;
+    padding: 20px;
+    padding-top: 250px;
+    padding-left: 50px;
+    font-size: 40px;
+ } 
+ .section-top-h1{
+     font-size: 60px;
+ }
+
+ .pricing{
+    width: 100%;
+    background-color: rgba(169, 169, 169, 0.589);
+    
+}
+.my-pricing-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-top: 160px;
+}
+.heading{
+    color: red;
+}
+.pricing-main-box{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.pricing-card{
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-h1{
+    color: red;
+    font-size: 50px; 
+}
+.price-h2{
+    color: red;
+}
+ul{
+     list-style: none;
+}
+li{
+    line-height: 3;
+}
+ul li i{
+    margin-right: 20px;
+}
+.pricing-card:hover{
+     background-color: darkgray;
+     border-radius: 100px;
+}
+
+/* medium device  */
+@media (min-width:768px) {
+    .pricing-main-box{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* large device */
+@media (min-width:1024px) {
+    .pricing-main-box{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+
+
